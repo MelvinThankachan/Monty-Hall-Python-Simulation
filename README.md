@@ -1,4 +1,5 @@
-# Monty Hall Simulation
+
+Happy simulating!
 
 ## Overview
 
@@ -54,9 +55,16 @@ This Python program simulates the Monty Hall game multiple times to demonstrate 
 
 1. **Run the Script**:
    - Simply execute the Python script. It will start by running the Monty Hall game and will display the progress in the console.
-        ```
-        py monty_hall_simulation
-        ```
+   
+        for windows: 
+            ```
+            py monty_hall_simulation
+            ```
+
+        for linux or mac: 
+            ```
+            python3 monty_hall_simulation
+            ```
 
 2. **Simulate with the Stay Strategy**:
    - Change the line in the code that calls the `simulate_monty_hall()` function from `switch=True` to `switch=False` to simulate the scenario where the player does **not** switch doors.
